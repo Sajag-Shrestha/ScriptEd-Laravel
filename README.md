@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -64,3 +65,38 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+=======
+Scripted - Laravel Setup
+
+Prerequisites
+PHP >= 8.2
+Composer
+MySQL/MariaDB
+Google OAuth credentials
+Node.js and NPM (for frontend assets)
+
+
+
+composer install
+npm install
+
+
+SESSION_DRIVER=database
+
+
+Migrations and Seeder:
+--------------------------------
+Run migrations:
+
+php artisan migrate
+php artisan db:seed
+
+php artisan serve
+
+Admin Account
+--------------------------------
+Email: admin@gmail.com
+Password: admin123
+
+
+>>>>>>> 1ba5326688a31c075b8837ed68b92f6be241b4ee
